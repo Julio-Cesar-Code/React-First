@@ -17,6 +17,7 @@
      height: 70px;
      border-radius: 20px;
      object-fit: cover;
+     
  }
 
  .OrderItem p:nth-child(2) {
@@ -26,4 +27,9 @@
  .OrderItem p:nth-child(3) {
      font-size: var(--md);
      font-weight: bold;
+     
+ }
+
+ .OrderItem img{
+    cursor: pointer;
  }
